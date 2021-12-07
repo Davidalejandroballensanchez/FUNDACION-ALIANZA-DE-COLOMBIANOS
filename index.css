@@ -2,35 +2,35 @@
  Colores para la pagina: amarillo anaranjado (FFC100) azulito claro (0084FF) rojito (FF0000) color gris claro (CFCFCF) color gris para texto (969696)
  */
 
-BODY {
+body {
 background-color:white;
 font-family:Arial;
 margin:0;
 }
 
-/* NAVEGACION*/
+/* NAVEGACION */
 
-NAV {
+nav {
 display:flex;
 justify-content:space-between;
 align-items:center;
 background-color:#969696;
 }
 
-NAV h1 {
+nav h1 {
 padding:0rem 0.5rem;
 }
 
-NAV ul {
+nav ul {
 display:flex;
 list-style:none;
 }
 
-NAV ul li {
+nav ul li {
 padding:0rem 1rem;
 }
 
-NAV ul li a {
+nav ul li a {
 text-decoration:none;
 }
 
@@ -129,7 +129,7 @@ text-align:center;
 
 /* PIE DE PAGINA */
 
-FOOTER {
+footer {
 padding:3rem 1rem;
 background-color:#969696;
 display:flex;
