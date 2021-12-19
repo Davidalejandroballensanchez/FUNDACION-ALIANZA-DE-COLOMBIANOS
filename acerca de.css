@@ -66,6 +66,8 @@ body {
 /* SECCION DE INTRODUCCION */
 .seccion-introduccion {
     margin:3rem 2rem;
+    padding:1rem 0rem;
+    border-radius:5px;
 }
 
 .seccion-introduccion:hover {
@@ -149,10 +151,13 @@ body {
 
 .enlace-objetivos a {
     text-decoration:none;
+    color:#FFC100;
 }
 
 .enlace-objetivos a:hover {
+    color:#CB8A00;
     text-decoration:underline;
+    transition-duration:0.5s;
 }
 
 /* PIE DE PAGINA */
