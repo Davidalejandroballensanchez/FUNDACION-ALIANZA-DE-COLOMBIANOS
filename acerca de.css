@@ -1,0 +1,214 @@
+/* GOOGLE FONTS ENLACE */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    margin:0;
+    padding:0;
+    font-family:'Oswald';
+}
+
+.contenedor-cabecera-menu {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0px 1px 20px black;
+    height:85px;
+}
+
+/* CABECERA */
+.seccion-cabecera {
+    display:flex;
+    align-items:center;
+    font-size:15px;
+    margin:1rem 0.5rem;
+}
+
+.seccion-cabecera a {
+    font-size:20px;
+    color:#FFC100;
+    margin:0rem 0.5rem;
+}
+
+.seccion-cabecera a:hover {
+    color:#CB8A00;
+    transition-duration:0.5s;
+}
+
+.seccion-cabecera h1 {
+    color:#FFC100;
+}
+
+/* NAVEGACION */
+.seccion-menu {
+    margin:0rem 0.5rem;
+}
+
+.elementos-menu {
+    display:flex;
+    list-style:none;
+}
+
+.elementos-menu li {
+    padding:0rem 1rem;
+    margin:auto;
+}
+
+.elementos-menu li a {
+    text-decoration:none;
+    color:#FFC100;
+}
+
+.elementos-menu li a:hover {
+    color:#CB8A00;
+    transition-duration:0.5s;
+}
+
+/* SECCION DE INTRODUCCION */
+.seccion-introduccion {
+    margin:3rem 2rem;
+}
+
+.seccion-introduccion:hover {
+    transition-duration:0.5s;
+    box-shadow:1px 1px 20px black;
+}
+
+.seccion-introduccion h2 {
+    text-align:center;
+    color:#FFC100;
+}
+
+.contenedor-introduccion {
+    margin:1rem 1rem;
+}
+
+.elementos-introduccion p {
+    text-align:center;
+}
+
+.imagen-introduccion {
+    display:flex;
+    justify-content:center;
+}
+
+.imagen-introduccion img {
+    width:230px;
+    height:230px;
+}
+
+.contenedor-origenes {
+    margin:1rem 1rem;
+}
+
+.elementos-origenes h3 {
+    text-align:center;
+    color:#FFC100;
+}
+
+.elementos-origenes p {
+    text-align:center;
+}
+
+.imagen-origenes {
+    display:flex;
+    justify-content:center;
+}
+
+.imagen-origenes img {
+    width:230px;
+    height:230px;
+}
+
+.contenedor-objetivos {
+    margin:1rem 1rem;
+}
+
+.elementos-objetivos h3 {
+    color:#FFC100;
+    text-align:center;
+}
+
+.elementos-objetivos p {
+    text-align:center;
+}
+
+.imagen-objetivos {
+    display:flex;
+    justify-content:center;
+}
+
+.imagen-objetivos img {
+    width:230px;
+    height:230px;
+}
+
+.enlace-objetivos {
+    margin:2rem 1rem;
+    text-align:center;
+}
+
+.enlace-objetivos a {
+    text-decoration:none;
+}
+
+.enlace-objetivos a:hover {
+    text-decoration:underline;
+}
+
+/* PIE DE PAGINA */
+.seccion-pie-pagina {
+    margin:0.5rem 0rem 2rem 0rem;
+}
+
+.enlace-pie-pagina-github-yo {
+    display:flex;
+    justify-content:center;
+}
+
+.enlace-pie-pagina-github-yo a {
+    text-decoration:none;
+}
+
+.enlace-pie-pagina-github-yo a:hover {
+    text-decoration:underline;
+    transition-duration:0.5s;
+}
+
+.seccion-pie-pagina hr {
+    width:1050px;
+}
+
+.contenedor-pie-pagina {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:1000px;
+    margin:0 auto;
+}
+
+.elementos-pie-pagina {
+    display:flex;
+    align-items:center;
+}
+
+.elementos-pie-pagina a {
+    margin:0rem 0.5rem;
+    font-size:20px;
+    color:#FFC100;
+}
+
+.elementos-pie-pagina a:hover {
+    color:#CB8A00;
+    transition-duration:0.5s;
+}
+
+.redes-pie-pagina a {
+    margin:0rem 0.5rem;
+    font-size:25px;
+    color:#FFC100;
+}
+
+.redes-pie-pagina a:hover {
+    color:#CB8A00;
+    transition-duration:0.5s;
+}
