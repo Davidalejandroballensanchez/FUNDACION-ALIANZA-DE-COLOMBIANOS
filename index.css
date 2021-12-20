@@ -310,6 +310,93 @@ body {
     transition-duration:0.5s;
 }
 
+/* SECCION DE REGISTRO */
+.seccion-registro {
+    margin:0.5rem 0rem 3.5rem 0rem;
+    padding:0.5rem 0.5rem;
+}
+
+.seccion-registro:hover {
+    box-shadow:1px 0px 20px black;
+    transition-duration:0.5s;
+}
+
+.contenedor-registro {
+    margin:2rem 3rem;
+    padding:1rem 1rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.elementos-introduccion-registro {
+    margin:0rem 10rem 0rem 0rem;
+    padding:4rem 4rem;
+}
+
+.elementos-introduccion-registro h3 {
+    color:#FFC100;
+}
+
+.tarjeta-formulario {
+    margin:0rem 0rem 0rem 0rem;
+    padding:2rem 2rem;
+    border-radius:5px;
+}
+
+.tarjeta-formulario:hover {
+    box-shadow:1px 1px 20px black;
+    transition-duration:0.5s;
+}
+
+.tarjeta-formulario input {
+    width:20rem;
+    height:2rem;
+    margin:0.5rem 0rem;
+    font-size:13px;
+    text-align:center;
+}
+
+.elementos-formulario {
+    font-family:'Oswald';
+    letter-spacing:1px;
+    color:black;
+    border-radius:5px;
+    border:0.5px solid black;
+}
+
+.tarjeta-formulario-boton {
+    display:flex;
+    justify-content:center;
+}
+
+.tarjeta-formulario-boton button {
+    padding:7px 10px;
+    border-radius:5px;
+    border:none;
+    background-color:#FFC100;
+    color:white;
+    font-size:13px;
+    letter-spacing:1px;
+}
+
+.tarjeta-formulario-boton button:hover {
+    background-color:#CB8A00;
+    transition-duration:0.5s;
+}
+
+.tarjeta-formulario p {
+    text-align:center;
+}
+
+.tarjeta-formulario a {
+    text-decoration:none;
+}
+
+.tarjeta-formulario a:hover {
+    text-decoration:underline;
+}
+
 /* PIE DE PAGINA */
 .seccion-pie-pagina {
     margin:0.5rem 0rem 2rem 0rem;
