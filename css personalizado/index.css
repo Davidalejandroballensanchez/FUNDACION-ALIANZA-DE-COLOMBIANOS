@@ -35,7 +35,7 @@ body {
 
 .seccion-cabecera a:hover {
     color:#CB8A00;
-    transition-duration:0.5s;
+    transition-duration:1s;
 }
 
 .seccion-cabecera h1 {
@@ -63,8 +63,8 @@ body {
 }
 
 .elementos-menu li a:hover {
+    transition-duration: 1s;
     color:#CB8A00;
-    transition-duration:0.5s;
 }
 
 /* SECCION DE INTRODUCCION */

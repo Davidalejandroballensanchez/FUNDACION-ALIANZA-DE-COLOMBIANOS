@@ -1,7 +1,7 @@
 // FUNCIONES PARA SECCIONES AUN NO HECHAS DE LA PAGINA
 function funcionAlertaSeccionBloqueada() {
     const variableSeccionBloqueada = "Disculpa, esta seccion de la pagina aun no esta terminada, por lo tanto aun no puedes acceder a ella.";
-    alert(variableSeccionBloqueada);
+    return alert(variableSeccionBloqueada);
 }
 
 // FUNCIONES PARA CUANDO ALGUIEN SE REGISTRE
