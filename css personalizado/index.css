@@ -458,3 +458,28 @@ body {
     color:#CB8A00;
     transition-duration:0.5s;
 }
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1200px) {
+    .seccion-introduccion img {
+        width:300px;
+        height:300px;
+    }
+
+    .imagen-explicacion {
+        width:300px;
+        height:300px;
+    }
+
+    .proyecto1 img {
+        height: 15rem;
+    }
+
+    .proyecto2 img {
+        height: 15rem;
+    }
+
+    .proyecto3 img {
+        height: 15rem;
+    }
+}
