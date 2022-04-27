@@ -168,8 +168,8 @@ body {
 
 .contenedor-proyectos {
     margin:3rem 2rem;
-    display:flex;
-    justify-content:space-between;
+    display:grid;
+    grid-template-columns:33% 33% 33%;
 }
 
 .proyecto1 {
@@ -177,6 +177,7 @@ body {
     margin:2rem 0.5rem;
     padding:0.5rem;
     border-radius:5px;
+    border: 1px solid #bdbdbd;
 }
 
 .proyecto1:hover {
@@ -225,6 +226,7 @@ body {
     margin:2rem 0.5rem;
     border-radius:5px;
     padding:0.5rem;
+    border:1px solid #bdbdbd;
 }
 
 .proyecto2:hover {
@@ -272,6 +274,7 @@ body {
     margin:2rem 0.5rem;
     border-radius:5px;
     padding:0.5rem;
+    border:1px solid #bdbdbd;
 }
 
 .proyecto3:hover {
